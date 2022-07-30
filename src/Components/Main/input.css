@@ -1,0 +1,27 @@
+.input-span {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+}
+
+.input-span label {
+  text-align: left;
+  padding-bottom: 5px;
+  color: black;
+  font-style: normal;
+}
+.input-span input {
+  height: 30px;
+  color: gray;
+  padding-left: 8px;
+  width: -webkit-fill-available;
+  text-transform: capitalize;
+}
+::placeholder {
+  padding-left: 8px;
+}
+sup {
+  color: red;
+}
